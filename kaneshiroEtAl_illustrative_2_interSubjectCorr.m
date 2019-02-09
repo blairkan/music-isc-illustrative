@@ -1,7 +1,7 @@
 % kaneshiroEtAl_illustrative_2_interSubjectCorr.m
 % --------------------------------------------------------
 % This script performs inter-subject correlation of RC1 activations for all
-% stimuli (Figure 1A).
+% stimuli (Figure 2A).
 
 % MIT License
 %
