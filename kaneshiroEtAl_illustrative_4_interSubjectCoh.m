@@ -33,7 +33,7 @@ addpath('Code/'); addpath('Data/');
 conditions = {'orig', 'meas', 'rev'};
 nTrials = 24; pIdx = combnk(1:nTrials, 2);
 
-for c = 1:4
+for c = 1:length(conditions)
     condtUse = conditions{c};
     rcaFilename = ['rcaOut_' condtUse '_allSongs.mat'];
     disp(['Loading ' rcaFilename]); load(rcaFilename);
