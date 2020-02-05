@@ -31,7 +31,7 @@ clear all; close all; clc
 addpath('Code/'); addpath('Data/');
 
 conditions = {'orig', 'meas', 'rev'};
-nTrials = 24; pIdx = combnk(1:nTrials, 2);
+nTrials = 24;
 
 for c = 1:length(conditions)
     condtUse = conditions{c};
