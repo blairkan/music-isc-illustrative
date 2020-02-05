@@ -43,8 +43,6 @@ for c = 1:length(conditions)
         currRCData = eegRC1{s}; % Time x trials
         currRCData = currRCData(1:(end-1),:);
         nTrials = size(currRCData, 2); % Number of trials (always 24)
-        pIdx = combnk(1:nTrials,2); % All unique pairs for this number of trials
-        nPairs = size(pIdx, 1); % Number of pairs (always 276)
         
         % Index of frequency of interest for current song
         idxFOI = idxFreqOfInterest(s);
