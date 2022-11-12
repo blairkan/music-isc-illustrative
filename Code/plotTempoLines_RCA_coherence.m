@@ -1,5 +1,5 @@
 function legend = plotTempoLines_RCA_coherence(freq, ylim, rgb10)
-% legend = plotTempoLines_RCA_coherence(freq, rgb10)
+% legend = plotTempoLines_RCA_coherence(freq, ylim, rgb10)
 % ------------------------------------------------------
 % This function plots tempo frequencies as dashed lines in the current
 % axis. User must specify frequencies and ylim. Colors are hard coded and
